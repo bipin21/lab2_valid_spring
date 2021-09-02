@@ -5,20 +5,20 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="<c:url value="/css/main.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/css/bootstrap.min.css"/>">
 </head>
 <body>
-<div class="main-page">
-    <h1>
-        Hello Student!!!
-    </h1>
-
-    <p>
-
-        <button onclick="window.location='<spring:url value="/registration"/>' ">
-            Student Registration
-        </button>
-
-    </p>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h2>Hello Student!!!</h2>
+            <p class="register_button ">
+                <button onclick="window.location='<spring:url value="/registration"/>' " class="btn btn-primary">
+                    Student Registration
+                </button>
+            </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>

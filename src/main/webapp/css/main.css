@@ -6,3 +6,27 @@
     margin: 100px auto;
     background: #efefef;
 }
+
+.legend{
+    text-align: center;
+    font-weight: 600;
+}
+
+.error_div{
+    text-align: center;
+    margin: 15px 0px 25px 0px;
+    border: solid 1px red;
+}
+
+.card-body h2 {
+    text-align: center;
+}
+
+.card{
+    margin-top: 25px;
+}
+
+p.register_button {
+    text-align: center;
+    margin: 15px;
+}
