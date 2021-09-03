@@ -31,7 +31,7 @@ public class Student {
 	@NotEmpty
  	private String gender = null;
 
- 	@DateTimeFormat(pattern = "mm/DD/yyyy")
+ 	@DateTimeFormat(pattern = "MM/dd/yyyy")
 	@Past
 	@NotNull
     private Date birthday;
